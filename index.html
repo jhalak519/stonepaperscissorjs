@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="winner-banner"></div>
+
+    <h1>
+        Rock Paper Scissor
+    </h1>
+
+    <h2>Choose One</h2>
+
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="https://img.freepik.com/premium-vector/hand-fist-symbol-vector-design_387989-708.jpg" alt="">
+        </div>
+        <div class="choice" id="paper">
+            <img src="https://img.freepik.com/premium-vector/counting-handfinger-number-five-illustration-vector_74440-5065.jpg?semt=ais_hybrid&w=740&q=80" alt="">
+        </div>
+        <div class="choice" id="scissor">
+            <img src="https://image.utoimage.com/preview/cp923865/2022/04/202204011589_500.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="scoreboard">
+        <div class="score">
+            <p id="userscore">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="computerscore">0</p>
+            <p>Computer</p>
+        </div>
+    </div>
+
+    <div class="computer-choice-container">
+    <p>Computer Chose</p>
+    <div id="computer-choice-icon">❔</div>
+    </div>
+
+    <div class="msgcontainer">
+        <p id="msg">Play your move</p>
+    </div>
+
+    <div class="reset-container">
+        <button id="resetbtn">Reset Game</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
