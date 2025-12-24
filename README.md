@@ -1,28 +1,28 @@
-<h>Rock Paper Scissors Game</h>
+# Rock Paper Scissors Game
 
 An interactive and responsive **Rock Paper Scissors** web game built using **HTML, CSS, and Vanilla JavaScript**.
 This project demonstrates strong frontend fundamentals with polished UI, animations, sound effects, and engaging gameplay.
 
-//Live Demo
+# Live Demo
 
  https://jhalak519.github.io/stonepaperscissorjs/
 
-///Features
+# Features
 
-#Core Gameplay
+# Core Gameplay
 
 * User vs Computer Rock-Paper-Scissors game
 * Random computer choice logic
 * Real-time score tracking
 * Clear win / lose / tie messages
 
-#Reset Functionality
+# Reset Functionality
 
 * Reset scores without reloading the page
 * Clears messages, animations, glow effects, and computer choice
 * Restores game to initial state instantly
 
-#Fully Responsive Design
+# Fully Responsive Design
 
 * Optimized for:
   * Desktop 💻
@@ -31,14 +31,14 @@ This project demonstrates strong frontend fundamentals with polished UI, animati
 * Uses CSS media queries
 * Clean layout on small screens
 
-#Sound Effects
+# Sound Effects
 
 * Click sound on user choice
 * Win / Lose / Tie sounds
 * Reset sound
 * Smooth replay even on fast clicks
 
-#Computer Choice Display
+# Computer Choice Display
 
 * Computer choice shown using emoji icons
     ✊ Rock
@@ -47,20 +47,20 @@ This project demonstrates strong frontend fundamentals with polished UI, animati
 * Icon updates every round
 * Icon hidden on reset
 
-#Animations & Effects
+# Animations & Effects
 
 * Button press animation
 * Message slide animation
 * Computer choice pop animation
 * Smooth reset animation
 
-#Glow & Pulse Effects
+# Glow & Pulse Effects
 
 * Winning choice glows visually
 * Pulse glow animation highlights the winner
 * Glow removed correctly on tie or reset
 
-#Winner Banner Animation
+# Winner Banner Animation
 
 * Animated banner slides from the top
 * Displays:
@@ -70,13 +70,13 @@ This project demonstrates strong frontend fundamentals with polished UI, animati
 * Auto-hides after animation
 * Resets cleanly
 
-#Technologies Used
+# Technologies Used
 
 * HTML5 – Structure
 * CSS3 – Styling, responsiveness, animations
 * JavaScript (ES6) – Game logic, DOM manipulation, audio handling
 
-#How to Run Locally
+# How to Run Locally
 
 1. Clone the repository
 
@@ -96,7 +96,7 @@ This project demonstrates strong frontend fundamentals with polished UI, animati
 * Audio integration in web apps
 * Improving UX with visual feedback
 
-#Future Improvements
+# Future Improvements
 
 * Best-of-5 / Best-of-10 match mode
 * Confetti animation on win
@@ -104,7 +104,7 @@ This project demonstrates strong frontend fundamentals with polished UI, animati
 * Background music with mute option
 * Keyboard controls
 
-#Author
+# Author
 
 Jhalak Sharma
 Frontend Developer (Beginner → Growing )
