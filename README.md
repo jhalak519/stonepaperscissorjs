@@ -1,4 +1,4 @@
-Rock Paper Scissors Game
+<h>Rock Paper Scissors Game</h>
 
 An interactive and responsive **Rock Paper Scissors** web game built using **HTML, CSS, and Vanilla JavaScript**.
 This project demonstrates strong frontend fundamentals with polished UI, animations, sound effects, and engaging gameplay.
