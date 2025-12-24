@@ -21,9 +21,9 @@ const removeGlow = () => {
     console.log('choices:', choices);
     console.log('computerChoiceIcon:', computerChoiceIcon);
     choices.forEach(choice => {
-        choice.classList.remove("glow", "pulse-glow");
+        choice.classList.remove("pulse-glow");
     });
-    computerChoiceIcon.classList.remove("glow", "pulse-glow", "computer-pulse");
+    computerChoiceIcon.classList.remove("computer-pulse");
 
 };
 
@@ -74,10 +74,6 @@ const playGame = (userChoice) => {
         computerChoiceIcon.innerText = "✌🏻";
     }
 
-    computerChoiceIcon.style.animation = "none";
-    computerChoiceIcon.offsetHeight;
-    computerChoiceIcon.style.animation = "pop 0.3s ease";
-
     // console.log("Computer choice is: ", computerChoice);
 
     if(userChoice === computerChoice) {
@@ -125,7 +121,7 @@ const playGame = (userChoice) => {
         animateMsg();
         //glow
         removeGlow();
-        computerChoiceIcon.classList.add("pulse-glow",'glow');
+        computerChoiceIcon.classList.add("computer-pulse");
         msg.style.backgroundColor = "rgba(216, 112, 147, 0.5)";
         msg.style.color = "black";
 

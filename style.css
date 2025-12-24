@@ -86,7 +86,6 @@ h2 {
     font-size: 40px;
     height: 100px;
     width: 100px;
-    animation: pop 0.5s ease;
     border: 5px solid rgb(105, 193, 248);
     /* display: inline-block; */
     display: inline-flex;
