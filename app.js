@@ -85,7 +85,7 @@ const playGame = (userChoice) => {
         animateMsg();
         msg.style.backgroundColor = "white";
         msg.style.color = "black";
-        showBanner("🤝 IT'S A TIE!", "banner-tie");
+        showBanner("🤝 IT'S A TIE! 🤝", "banner-tie");
         banner.style.color = "black";
 
     } else if (
@@ -108,7 +108,7 @@ const playGame = (userChoice) => {
         msg.style.backgroundColor = "rgba(153, 246, 142, 0.5)";
         msg.style.color = "black";
 
-        showBanner("🎉 YOU WIN!", "banner-win");
+        showBanner("🎉 YOU WIN! 🎉 ", "banner-win");
         banner.style.color = "black";
         
     } else {
@@ -125,7 +125,7 @@ const playGame = (userChoice) => {
         msg.style.backgroundColor = "rgba(216, 112, 147, 0.5)";
         msg.style.color = "black";
 
-        showBanner("😢 YOU LOSE!", "banner-lose");
+        showBanner("😢 YOU LOSE! 😢", "banner-lose");
         banner.style.color = "black";
         
     }
