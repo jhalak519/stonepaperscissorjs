@@ -3,6 +3,12 @@
 An interactive and responsive **Rock Paper Scissors** web game built using **HTML, CSS, and Vanilla JavaScript**.
 This project demonstrates strong frontend fundamentals with polished UI, animations, sound effects, and engaging gameplay.
 
+# screenshot
+<img width="843" height="905" alt="Screenshot 2025-12-25 at 14 17 42" src="https://github.com/user-attachments/assets/a4c7d0cb-cfbe-4c14-9588-9629d2e4c043" />
+
+# video 
+https://github.com/user-attachments/assets/3e6abd69-5bf9-4e2f-b69a-00ca4057d185
+
 # Live Demo
 
  https://jhalak519.github.io/stonepaperscissorjs/
